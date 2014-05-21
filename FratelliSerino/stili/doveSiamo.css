@@ -1,0 +1,25 @@
+#imgMaps
+{
+	position: absolute;
+	background-image: url("../immagini_sito/mapAzienda.png");
+	background-size: 550px 170px;
+	top: 0px;
+	left: 474px;
+	width: 550px;
+	height: 170px;
+	z-index: 1;
+}
+
+#map
+{
+	background-image: url("../immagini_sito/load.gif");
+	position: relative;
+	box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
+	width: 680px;
+	height: 340px;
+}
+
+.funzioniMenu
+{
+	display: block;
+}
