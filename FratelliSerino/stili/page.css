@@ -1,8 +1,16 @@
+body
+{
+    background-image: url('../immagini_sito/background_page.png');
+    background-attachment: fixed;
+    background-size: 1024px;
+    margin-bottom: 50px;
+}
+
 #page
 {
     position:       absolute;
     width:          1024px;
-    height:         1100px;
+    height:         1160px;
     left:           50%;
     top:            0;
     margin-left:    -512px;
@@ -48,25 +56,25 @@
 
 #storia
 {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 2px 6px 0px #000;
     position:   absolute;
     font-size:  13pt;
-    overflow-y: scroll;
     width:      1024px;
-    height:     360px;
-    top:        590px;
+    height:     365px;
+    top:        587px;
 }
 
 #bottom
 {
-    position:   absolute;
-    top:        950px;
-    width:      1024px;
-    height:     120px;
-    box-shadow: 0px 2px 6px 0px #000;
-    text-align: center;
+    background-color:   #D2D2D2;
+    position:           absolute;
+    top:                960px;
+    width:              1024px;
+    height:             120px;
+    box-shadow:         0px 2px 6px 0px #000;
+    text-align:         center;
 }
-
-
 
 /*#invisible
 {
